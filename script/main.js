@@ -46,5 +46,9 @@ async function searchImages() {
     page = 1;
     searchImages();
   });
+  showMoreButtonPl.addEventListener("click", () => {
+    searchImages();
+  });
+  
   
   
