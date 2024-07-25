@@ -41,4 +41,10 @@ async function searchImages() {
       showMoreButtonPl.style.display = "block";
     }
   }
+  formPl.addEventListener("submit", (event) => {
+    event.preventDefault();
+    page = 1;
+    searchImages();
+  });
+  
   
